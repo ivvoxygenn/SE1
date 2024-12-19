@@ -1,11 +1,13 @@
 #include <iostream>
 
 int main() {
+    // Объявление переменных для чисел
     double num1, num2;
     std::cout << "Введите первое число: ";
     std::cin >> num1;
     std::cout << "Введите второе число: ";
     std::cin >> num2;
-    std::cout << "Вы ввели числа: " << num1 << " и " << num2 << std::endl;
+    double sum = num1 + num2;
+    std::cout << "Сумма чисел: " << sum << std::endl;
     return 0;
 }
